@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+     }
+   .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0% auto;
+   }  
+   .codinglab_text { text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    padding-left: 15px;
+   position: relative;
+   bottom: 10px;
+   padding-right: 10px;
+
+   }
+   .coding_lab { text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.navbar {
+    position: fixed;
+    height: 100vh;
+    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+border-right: 1px solid black;
+gap: 100px;
+
+}
+.coding_lab {
+    border-radius: 50%;
+}
+.navbar_container {
+  
+}
+.main {
+    margin-left: 320px;
+}
+.nav_item a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+
+}
+.analytics_text {
+    padding-left: 15px;
+position: relative;
+bottom: 8px;
+}
+.like_text { padding-left: 15px;
+    position: relative;
+    bottom: 8px;
+
+}
+.comment_text {
+    padding-left: 15px;
+position: relative;
+bottom: 8px;
+}
+
+.share_text {
+    padding-left: 15px;
+position: relative;
+bottom: 8px;
+}
+.content_text {
+    padding-left: 12px;
+    position: relative;
+    bottom: 8px;
+}
+.dashboard_text {
+    padding-left: 12px;
+    position: relative;
+    bottom: 8px;
+}
+.nav_list {
+    list-style: none;
+    position: relative;
+    top: 50px;
+}
+.Logout {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    position: relative;
+    bottom: 5px;
+
+}
+.navbar_foot a {
+    text-decoration: none;
+    padding-left:20px;
+}
+.dark {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    position: relative;
+    bottom: 7px;
+    right: 6px;
+}
+.navbar_foot {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    position: relative;
+    right: 15px;
+}
+.dark_image {
+    position: relative;
+    right: 3px;
+}
+.coding_image{
+border: 1px solid black ;
+border-radius: 50%;
+position: relative;
+top: 10px;
+}
+.button {
+    position: relative;
+    left: 70px;
+}
+.main_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sunglass {
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 20px;
+   
+}
+.input {
+ padding-right: 500px;
+ padding-left: 50px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-left: 90px;
+}
+.search_image {
+    position: relative;
+    right: 765px;
+    top: 2px;
+}
